@@ -18,7 +18,7 @@ jobs:
       matrix:
         go: ['1.14', '1.15']
     steps:
-      # Pega os dados que acabam de ser feito push e baixar na máquina ubuntu
+      # Pega os dados que acabam de ser feito push e baixar na máquina
       - uses: actions/checkout@v2
       # Prepara a máquina com um setup para rodar golang
       - uses: actions/setup-go@v2
