@@ -49,4 +49,4 @@ jobs:
         with:
           # Difine se será feito o push no dockerhub
           push: true
-          tags: gabrielprogramerdocker/go-project-ci:latest
+          tags: ${{ secrets.DOCKERHUB_TOKEN }}/go-project-ci:latest
