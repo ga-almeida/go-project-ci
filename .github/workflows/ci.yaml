@@ -29,7 +29,7 @@ jobs:
       - run: go test
       - run: go run math.go
     
-      # Passos para executar o docker
+      # Passos para executar o docker e fazer push no dockerhub
         # Prepara o ambiente para executar o docker
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
